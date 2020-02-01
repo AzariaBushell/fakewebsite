@@ -1,0 +1,49 @@
+/*CSS Reset*/
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General settings */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 1.1rem; 
+}
+
+/* Core Styles*/
+h1 {
+margin-bottom: 20px;
+}
+
+h2,h3 {
+margin-bottom: 16px;
+}
+
+a
+{
+text-decoration: none;  
+}
+
+
+#introduction-to-hotel
+{
+background-image: url(showcase.jpg);
+background-repeat: no-repeat;
+background: center center;
+background-size: cover;
+height: 500px;
+}
+
+#history-of-hotel
+{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+#main-hotel-aspects
+{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
